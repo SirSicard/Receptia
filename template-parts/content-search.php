@@ -9,14 +9,12 @@
 	
 	?>
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-	<div class="card horizontal mb-4">
-		<div class="row">
-			<!-- Featured Image-->
-			<?php if (has_post_thumbnail() )
-				echo '<div class="card-img-left-md col-lg-5">' . get_the_post_thumbnail(null, 'medium') . '</div>';
-				?>
-			<div class="col">
-				<div class="card-body">
+<div class="card horizontal mb-4 col-sm-12 col-md-6 col-lg-3">
+                <div class="row">
+                  <!-- Featured Image-->
+                  <div class="col">
+                  <img src="<?php the_field('featured_image');?>">
+                    <div class="card-body">
 					
                     <?php bootscore_category_badge(); ?>
                     
@@ -39,7 +37,7 @@
 					<?php endif; ?>	
 					<!-- Excerpt & Read more -->
 					<div class="card-text mt-auto">
-						<?php the_excerpt(); ?> <a class="read-more" href="<?php the_permalink(); ?>"><?php _e('Read more »', 'bootscore'); ?></a>
+						<?php the_excerpt(); ?> <a class="read-more" href="<?php the_permalink(); ?>"><?php _e('View recipe »', 'bootscore'); ?></a>
 					</div>
 					<!-- Tags -->
 					<?php bootscore_tags(); ?>

@@ -10926,3 +10926,8 @@ Custom checkboxes, radios, range, and select on Mac/iOS Safari if custom Sass co
 .form-select {
   -webkit-appearance: none;
 }
+
+
+.logo {
+  height: 42px;
+}
