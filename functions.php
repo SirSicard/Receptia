@@ -482,7 +482,7 @@ if( function_exists('acf_add_local_field_group') ):
 
     acf_add_local_field_group(array(
         'key' => 'group_7209e0c68990d',
-        'title' => 'bs_recipe',
+        'title' => 'Add your recipe!',
         'fields' => array(
             array(
                 'key' => 'field_6209e111c666f',
