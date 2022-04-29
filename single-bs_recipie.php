@@ -6,7 +6,7 @@
 get_header();  ?>
 
 <!-- hero -->
-<div class="container-fluid" style="background-image:url('<?php echo get_field('featured_image'); ?>');background-repeat: no-repeat; background-position: center; background-size: cover; height: 400px; color: white; box-shadow: inset 6000px 6000px #22222263;">
+<div class="container-fluid" style="background-image:url('<?php echo get_field('image'); ?>');background-repeat: no-repeat; background-position: center; background-size: cover; height: 400px; color: white; box-shadow: inset 6000px 6000px #22222263;">
     <div class="container h-100">
         <div class="recipe_title" style="padding-top: 250px;"><?php the_title('<h1>', '</h1>'); ?></div>
     </div>
@@ -27,16 +27,23 @@ get_header();  ?>
             }
             ?>
         </div>
-        <div class="alert alert-info" role="alert">
-            <?php echo the_field('content'); ?>
+        <div class="alert bg-light role="alert">
+            <?php echo the_field('description'); ?>
         </div>
 
         <div class="row">
             <!-- Ingredients tab on the recipe -->
             <div class="col-sm-12 col-md-4 col-lg-3 h-auto">
                 <div class="ingredients_box mb-4 p-3 bg-light">
-                    <b>Portions:</b> <?php echo the_field('servings'); ?>
+                    <b>Prep Time:</b> <?php echo the_field('prep'); ?>
+                    <hr>
+                    <b>Cook Time:</b> <?php echo the_field('cook'); ?>
+                    <hr>
+                    <b>Total Time:</b> <?php echo the_field('total'); ?>
+                    <hr>
+                    <b>Servings:</b> <?php echo the_field('servings'); ?>
                 </div>
+                
                 <!-- ingredients -->
                 <div class="ingredients_box p-3 bg-light">
                     <h3>Ingredients</h3>
@@ -60,7 +67,7 @@ get_header();  ?>
                         <div class="instruction_box">
                             <h3>Instructions</h3>
                             <hr>
-                            <?php the_field('instructions'); ?>
+                            <?php the_field('directions'); ?>
                         </div>
                     </header>
 

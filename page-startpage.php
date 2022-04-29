@@ -73,7 +73,7 @@ get_header();
                 ?>
                     <div class="col-sm-12 col-md-4 col-lg-3">
                         <div class="card m-1">
-                            <img class="card-img-top" src="<?php the_field('featured_image'); ?>" alt="Card image cap">
+                            <img class="card-img-top" src="<?php the_field('image'); ?>" alt="Card image cap">
                             <div class="card-body">
                                 <h5 class="card-title"><?php the_title(); ?></h5>
                                 <p class="card-text"><?php the_field('content'); ?></p>
