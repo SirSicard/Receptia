@@ -35,7 +35,7 @@ get_header();
                 <div class="row">
                   <!-- Featured Image-->
                   <div class="col">
-                  <img src="<?php the_field('featured_image');?>">
+                  <img src="<?php the_field('image');?>">
                     <div class="card-body">
 
                       <?php bootscore_category_badge(); ?>
