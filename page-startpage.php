@@ -22,7 +22,7 @@ get_header();
         <?php bs_after_primary(); ?>
         <div class="mb-5 mt-3">
             <center>
-                <h1 class=" text-white">Receptia, the portal to better food, search for your dishes below!</h1>
+                <h1><?php _e( 'Receptia, the portal to better food, search for your dishes below!', 'bootscore' );?></h1>
             </center>
             <div class="search_form mt-3 mb-3"><?php get_search_form(); ?></div>
             <center>
@@ -42,7 +42,7 @@ get_header();
             <header class="entry-header">
                 <div class="categories mb-5">
                     <center>
-                        <h3 class=" text-white">Food Categories</h3>
+                        <h3 class="text-white"><?php _e( 'View recipe', 'bootscore' );?></h3>
                     </center>
                     <?php
                     $args = array(
@@ -63,7 +63,7 @@ get_header();
                 </div>
                 <!-- Title -->
                 <center>
-                    <h3 class=" text-white">Newly added recipes</h3>
+                <h3><?php __( 'Latest Recipes', 'bootscore' );?></h3>
                 </center>
                 <?php
                 $args = array('post_type' =>  'bs_recipie');
@@ -77,7 +77,7 @@ get_header();
                             <div class="card-body">
                                 <h5 class="card-title"><?php the_title(); ?></h5>
                                 <p class="card-text"><?php the_field('content'); ?></p>
-                                <a href="<?php the_permalink(); ?>" class="btn btn-primary">View recipe</a>
+                                <a href="<?php the_permalink(); ?>" class="btn btn-primary"><?php _e( 'View recipe', 'bootscore' );?></a>
                             </div>
                         </div>
                     </div>

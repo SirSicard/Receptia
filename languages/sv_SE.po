@@ -3,14 +3,18 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: bootScore 5 5.0.1.2\n"
-"Report-Msgid-Bugs-To: https://wordpress.org/support/theme/wcm20-cms-saf-bootscore-5-boilerplate-with-sass\n"
-"POT-Creation-Date: 2022-05-05 21:55:01+00:00\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/theme/wcm20-cms-saf-"
+"bootscore-5-boilerplate-with-sass\n"
+"POT-Creation-Date: 2022-05-05 22:12:46+00:00\n"
+"PO-Revision-Date: 2022-05-06 00:16+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: sv\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2022-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.0.1\n"
 
 #: 404.php:22
 msgid "Page not found."
@@ -33,14 +37,12 @@ msgid "Read more »"
 msgstr ""
 
 #. translators: %s: post title
-
 #: comments.php:34
 msgctxt "comments title"
 msgid "One Comment &ldquo;%s&rdquo;"
 msgstr ""
 
 #. translators: 1: number of comments, 2: post title
-
 #: comments.php:38
 msgctxt "comments title"
 msgid "%1$s Comment on &ldquo;%2$s&rdquo;"
@@ -65,7 +67,6 @@ msgid "Comments are closed."
 msgstr ""
 
 #. translators: %s: post title
-
 #: comments.php:98 inc/template-tags.php:110
 msgid "Leave a Comment"
 msgstr ""
@@ -702,15 +703,23 @@ msgid "Overview"
 msgstr ""
 
 #: inc/acf-pro/includes/admin/admin.php:131
-msgid "The Advanced Custom Fields plugin provides a visual form builder to customize WordPress edit screens with extra fields, and an intuitive API to display custom field values in any theme template file."
+msgid ""
+"The Advanced Custom Fields plugin provides a visual form builder to "
+"customize WordPress edit screens with extra fields, and an intuitive API to "
+"display custom field values in any theme template file."
 msgstr ""
 
 #: inc/acf-pro/includes/admin/admin.php:133
-msgid "Before creating your first Field Group, we recommend first reading our <a href=\"%s\" target=\"_blank\">Getting started</a> guide to familiarize yourself with the plugin's philosophy and best practises."
+msgid ""
+"Before creating your first Field Group, we recommend first reading our <a "
+"href=\"%s\" target=\"_blank\">Getting started</a> guide to familiarize "
+"yourself with the plugin's philosophy and best practises."
 msgstr ""
 
 #: inc/acf-pro/includes/admin/admin.php:136
-msgid "Please use the Help & Support tab to get in touch should you find yourself requiring assistance."
+msgid ""
+"Please use the Help & Support tab to get in touch should you find yourself "
+"requiring assistance."
 msgstr ""
 
 #: inc/acf-pro/includes/admin/admin.php:145
@@ -719,19 +728,30 @@ msgid "Help & Support"
 msgstr ""
 
 #: inc/acf-pro/includes/admin/admin.php:148
-msgid "We are fanatical about support, and want you to get the best out of your website with ACF. If you run into any difficulties, there are several places you can find help:"
+msgid ""
+"We are fanatical about support, and want you to get the best out of your "
+"website with ACF. If you run into any difficulties, there are several places "
+"you can find help:"
 msgstr ""
 
 #: inc/acf-pro/includes/admin/admin.php:151
-msgid "<a href=\"%s\" target=\"_blank\">Documentation</a>. Our extensive documentation contains references and guides for most situations you may encounter."
+msgid ""
+"<a href=\"%s\" target=\"_blank\">Documentation</a>. Our extensive "
+"documentation contains references and guides for most situations you may "
+"encounter."
 msgstr ""
 
 #: inc/acf-pro/includes/admin/admin.php:155
-msgid "<a href=\"%s\" target=\"_blank\">Discussions</a>. We have an active and friendly community on our Community Forums who may be able to help you figure out the ‘how-tos’ of the ACF world."
+msgid ""
+"<a href=\"%s\" target=\"_blank\">Discussions</a>. We have an active and "
+"friendly community on our Community Forums who may be able to help you "
+"figure out the ‘how-tos’ of the ACF world."
 msgstr ""
 
 #: inc/acf-pro/includes/admin/admin.php:159
-msgid "<a href=\"%s\" target=\"_blank\">Help Desk</a>. The support professionals on our Help Desk will assist with your more in depth, technical challenges."
+msgid ""
+"<a href=\"%s\" target=\"_blank\">Help Desk</a>. The support professionals on "
+"our Help Desk will assist with your more in depth, technical challenges."
 msgstr ""
 
 #: inc/acf-pro/includes/admin/admin.php:168
@@ -783,7 +803,11 @@ msgid "Select Field Groups"
 msgstr ""
 
 #: inc/acf-pro/includes/admin/tools/class-acf-admin-tool-export.php:336
-msgid "Select the field groups you would like to export and then select your export method. Use the download button to export to a .json file which you can then import to another ACF installation. Use the generate button to export to PHP code which you can place in your theme."
+msgid ""
+"Select the field groups you would like to export and then select your export "
+"method. Use the download button to export to a .json file which you can then "
+"import to another ACF installation. Use the generate button to export to PHP "
+"code which you can place in your theme."
 msgstr ""
 
 #: inc/acf-pro/includes/admin/tools/class-acf-admin-tool-export.php:341
@@ -791,7 +815,12 @@ msgid "Export File"
 msgstr ""
 
 #: inc/acf-pro/includes/admin/tools/class-acf-admin-tool-export.php:414
-msgid "The following code can be used to register a local version of the selected field group(s). A local field group can provide many benefits such as faster load times, version control & dynamic fields/settings. Simply copy and paste the following code to your theme's functions.php file or include it within an external file."
+msgid ""
+"The following code can be used to register a local version of the selected "
+"field group(s). A local field group can provide many benefits such as faster "
+"load times, version control & dynamic fields/settings. Simply copy and paste "
+"the following code to your theme's functions.php file or include it within "
+"an external file."
 msgstr ""
 
 #: inc/acf-pro/includes/admin/tools/class-acf-admin-tool-export.php:446
@@ -807,7 +836,9 @@ msgid "Import Field Groups"
 msgstr ""
 
 #: inc/acf-pro/includes/admin/tools/class-acf-admin-tool-import.php:47
-msgid "Select the Advanced Custom Fields JSON file you would like to import. When you click the import button below, ACF will import the field groups."
+msgid ""
+"Select the Advanced Custom Fields JSON file you would like to import. When "
+"you click the import button below, ACF will import the field groups."
 msgstr ""
 
 #: inc/acf-pro/includes/admin/tools/class-acf-admin-tool-import.php:52
@@ -867,7 +898,6 @@ msgid "Edit field"
 msgstr ""
 
 #. translators: %s: Name of current post. Only visible to screen readers
-
 #: inc/acf-pro/includes/admin/views/field-group-field.php:49
 #: inc/acf-pro/includes/fields/class-acf-field-file.php:151
 #: inc/acf-pro/includes/fields/class-acf-field-image.php:131
@@ -974,7 +1004,9 @@ msgid "Type"
 msgstr ""
 
 #: inc/acf-pro/includes/admin/views/field-group-fields.php:14
-msgid "No fields. Click the <strong>+ Add Field</strong> button to create your first field."
+msgid ""
+"No fields. Click the <strong>+ Add Field</strong> button to create your "
+"first field."
 msgstr ""
 
 #: inc/acf-pro/includes/admin/views/field-group-fields.php:31
@@ -986,7 +1018,9 @@ msgid "Rules"
 msgstr ""
 
 #: inc/acf-pro/includes/admin/views/field-group-locations.php:10
-msgid "Create a set of rules to determine which edit screens will use these advanced custom fields"
+msgid ""
+"Create a set of rules to determine which edit screens will use these "
+"advanced custom fields"
 msgstr ""
 
 #: inc/acf-pro/includes/admin/views/field-group-options.php:9
@@ -1121,7 +1155,9 @@ msgid "<b>Select</b> items to <b>hide</b> them from the edit screen."
 msgstr ""
 
 #: inc/acf-pro/includes/admin/views/field-group-options.php:129
-msgid "If multiple field groups appear on an edit screen, the first field group's options will be used (the one with the lowest order number)"
+msgid ""
+"If multiple field groups appear on an edit screen, the first field group's "
+"options will be used (the one with the lowest order number)"
 msgstr ""
 
 #: inc/acf-pro/includes/admin/views/html-admin-navigation.php:85
@@ -1129,7 +1165,9 @@ msgid "Upgrade to Pro"
 msgstr ""
 
 #: inc/acf-pro/includes/admin/views/html-admin-page-upgrade-network.php:26
-msgid "The following sites require a DB upgrade. Check the ones you want to update and then click %s."
+msgid ""
+"The following sites require a DB upgrade. Check the ones you want to update "
+"and then click %s."
 msgstr ""
 
 #: inc/acf-pro/includes/admin/views/html-admin-page-upgrade-network.php:26
@@ -1152,7 +1190,8 @@ msgid "Site is up to date"
 msgstr ""
 
 #: inc/acf-pro/includes/admin/views/html-admin-page-upgrade-network.php:93
-msgid "Database Upgrade complete. <a href=\"%s\">Return to network dashboard</a>"
+msgid ""
+"Database Upgrade complete. <a href=\"%s\">Return to network dashboard</a>"
 msgstr ""
 
 #: inc/acf-pro/includes/admin/views/html-admin-page-upgrade-network.php:113
@@ -1161,7 +1200,9 @@ msgstr ""
 
 #: inc/acf-pro/includes/admin/views/html-admin-page-upgrade-network.php:117
 #: inc/acf-pro/includes/admin/views/html-notice-upgrade.php:38
-msgid "It is strongly recommended that you backup your database before proceeding. Are you sure you wish to run the updater now?"
+msgid ""
+"It is strongly recommended that you backup your database before proceeding. "
+"Are you sure you wish to run the updater now?"
 msgstr ""
 
 #: inc/acf-pro/includes/admin/views/html-admin-page-upgrade-network.php:144
@@ -1228,11 +1269,13 @@ msgid "Thank you for updating to %s v%s!"
 msgstr ""
 
 #: inc/acf-pro/includes/admin/views/html-notice-upgrade.php:22
-msgid "This version contains improvements to your database and requires an upgrade."
+msgid ""
+"This version contains improvements to your database and requires an upgrade."
 msgstr ""
 
 #: inc/acf-pro/includes/admin/views/html-notice-upgrade.php:24
-msgid "Please also check all premium add-ons (%s) are updated to the latest version."
+msgid ""
+"Please also check all premium add-ons (%s) are updated to the latest version."
 msgstr ""
 
 #: inc/acf-pro/includes/ajax/class-acf-ajax-local-json-diff.php:34
@@ -1393,7 +1436,9 @@ msgid "Endpoint"
 msgstr ""
 
 #: inc/acf-pro/includes/fields/class-acf-field-accordion.php:120
-msgid "Define an endpoint for the previous accordion to stop. This accordion will not be visible."
+msgid ""
+"Define an endpoint for the previous accordion to stop. This accordion will "
+"not be visible."
 msgstr ""
 
 #: inc/acf-pro/includes/fields/class-acf-field-button-group.php:24
@@ -2422,7 +2467,9 @@ msgid "Placement"
 msgstr ""
 
 #: inc/acf-pro/includes/fields/class-acf-field-tab.php:115
-msgid "Define an endpoint for the previous tabs to stop. This will start a new group of tabs."
+msgid ""
+"Define an endpoint for the previous tabs to stop. This will start a new "
+"group of tabs."
 msgstr ""
 
 #: inc/acf-pro/includes/fields/class-acf-field-taxonomy.php:701
@@ -2902,7 +2949,9 @@ msgid "Publish"
 msgstr ""
 
 #: inc/acf-pro/pro/admin/admin-options-page.php:204
-msgid "No Custom Field Groups found for this options page. <a href=\"%s\">Create a Custom Field Group</a>"
+msgid ""
+"No Custom Field Groups found for this options page. <a href=\"%s\">Create a "
+"Custom Field Group</a>"
 msgstr ""
 
 #: inc/acf-pro/pro/admin/admin-updates.php:49
@@ -2915,7 +2964,9 @@ msgid "Updates"
 msgstr ""
 
 #: inc/acf-pro/pro/admin/admin-updates.php:191
-msgid "<b>Error</b>. Could not authenticate update package. Please check again or deactivate and reactivate your ACF PRO license."
+msgid ""
+"<b>Error</b>. Could not authenticate update package. Please check again or "
+"deactivate and reactivate your ACF PRO license."
 msgstr ""
 
 #: inc/acf-pro/pro/admin/views/html-settings-updates.php:6
@@ -2931,7 +2982,10 @@ msgid "License Information"
 msgstr ""
 
 #: inc/acf-pro/pro/admin/views/html-settings-updates.php:19
-msgid "To unlock updates, please enter your license key below. If you don't have a licence key, please see <a href=\"%s\" target=\"_blank\">details & pricing</a>."
+msgid ""
+"To unlock updates, please enter your license key below. If you don't have a "
+"licence key, please see <a href=\"%s\" target=\"_blank\">details & pricing</"
+"a>."
 msgstr ""
 
 #: inc/acf-pro/pro/admin/views/html-settings-updates.php:26
@@ -2995,7 +3049,6 @@ msgid "Change content alignment"
 msgstr ""
 
 #. translators: %s: Block type title
-
 #: inc/acf-pro/pro/blocks.php:449
 msgid "%s settings"
 msgstr ""
@@ -3275,7 +3328,10 @@ msgid "Options Updated"
 msgstr ""
 
 #: inc/acf-pro/pro/updates.php:97
-msgid "To enable updates, please enter your license key on the <a href=\"%s\">Updates</a> page. If you don't have a licence key, please see <a href=\"%s\" target=\"_blank\">details & pricing</a>."
+msgid ""
+"To enable updates, please enter your license key on the <a href=\"%s"
+"\">Updates</a> page. If you don't have a licence key, please see <a href=\"%s"
+"\" target=\"_blank\">details & pricing</a>."
 msgstr ""
 
 #: inc/class-wp-bootstrap-navwalker.php:369
@@ -3300,30 +3356,27 @@ msgid "Your comment is awaiting moderation."
 msgstr ""
 
 #: inc/comment-list.php:111
-msgid "Save my name, email, and website in this browser for the next time I comment."
+msgid ""
+"Save my name, email, and website in this browser for the next time I comment."
 msgstr ""
 
 #. translators: used between list items, there is a space after the comma
-
 #: inc/template-tags.php:38
 msgid ", "
 msgstr ""
 
 #. translators: %s: post date.
-
 #: inc/template-tags.php:85
 msgctxt "post author"
 msgid "by %s"
 msgstr ""
 
 #. translators: %s: Name of current post. Only visible to screen readers.
-
 #: inc/template-tags.php:167
 msgid "Leave a comment"
 msgstr ""
 
 #. translators: 1: list of tags.
-
 #: inc/template-tags.php:191
 msgid "Tagged %1$s"
 msgstr ""
@@ -3349,7 +3402,9 @@ msgid "Look what I found: "
 msgstr ""
 
 #: languages/plugin-translations.php:4
-msgid "Cookies help us deliver our services. By using our services, you agree to our use of cookies."
+msgid ""
+"Cookies help us deliver our services. By using our services, you agree to "
+"our use of cookies."
 msgstr ""
 
 #: languages/plugin-translations.php:5
@@ -3364,12 +3419,23 @@ msgstr ""
 msgid "Accept"
 msgstr ""
 
+#: page-startpage.php:26
+msgid "Find the leading recipies online!"
+msgstr "Hitta de bästa recepten på nätet!"
+
+#: page-startpage.php:42 page-startpage.php:77
+msgid "View recipe"
+msgstr "Visa recept"
+
+#: page-startpage.php:63
+msgid "Latest Recipes"
+msgstr "Senaste recepten"
+
 #: page.php:38
 msgid "Pages:"
 msgstr ""
 
 #. translators: %s: search query.
-
 #: search.php:29
 msgid "Search Results for: %s"
 msgstr ""
@@ -3383,22 +3449,27 @@ msgid "Nothing Found for"
 msgstr ""
 
 #. translators: 1: link to WP admin new post page.
-
 #: template-parts/content-none.php:25
-msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
 msgstr ""
 
 #: template-parts/content-none.php:37
-msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
 msgstr ""
 
 #: template-parts/content-none.php:43
-msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
 msgstr ""
 
 #: template-parts/content-search.php:40
 msgid "View recipe »"
 msgstr ""
+
 #. Theme Name of the plugin/theme
 msgid "bootScore 5"
 msgstr ""
@@ -3408,7 +3479,15 @@ msgid "https://bootscore.me/"
 msgstr ""
 
 #. Description of the plugin/theme
-msgid "A powerful Bootstrap 5 WordPress Starter Theme with WooCommerce Support. <a href=\"https://bootscore.me/category/documentation/\" target=\"_blank\">Documentation</a>. This theme gives you full control whatever you do and the full freedom to design whatever you want. It comes with a wide selection of category, page, post, author and archive templates as well as sidebar, header, footer and 404 widgets. There are no customizer settings in the backend. All settings can only be made by touching the code. Some CSS, HTML, PHP and JS Skills are required to customize it."
+msgid ""
+"A powerful Bootstrap 5 WordPress Starter Theme with WooCommerce Support. <a "
+"href=\"https://bootscore.me/category/documentation/\" target=\"_blank"
+"\">Documentation</a>. This theme gives you full control whatever you do and "
+"the full freedom to design whatever you want. It comes with a wide selection "
+"of category, page, post, author and archive templates as well as sidebar, "
+"header, footer and 404 widgets. There are no customizer settings in the "
+"backend. All settings can only be made by touching the code. Some CSS, HTML, "
+"PHP and JS Skills are required to customize it."
 msgstr ""
 
 #. Author of the plugin/theme

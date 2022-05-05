@@ -628,7 +628,7 @@ if( function_exists('acf_add_local_field_group') ):
                 'min' => 1,
                 'max' => 0,
                 'layout' => 'table',
-                'button_label' => 'Add ingridients',
+                'button_label' => 'Add ingredients',
                 'sub_fields' => array(
                     array(
                         'key' => 'field_6209e1c0c6676',
@@ -807,3 +807,11 @@ function cptui_register_my_taxes_recipe_category() {
 	register_taxonomy( "recipe_category", [ "bs_recipie" ], $args );
 }
 add_action( 'init', 'cptui_register_my_taxes_recipe_category' );
+
+
+// adding translation support for bootscore
+function bootscore_textdomain() {
+    load_theme_textdomain( 'bootscore', get_template_directory() . '/languages' );
+    
+}
+add_action( 'init', 'bootscore_textdomain' );

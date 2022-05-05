@@ -15,7 +15,7 @@ if ( ! function_exists( 'bootscore_category_badge' ) ) :
 		if ( 'post' === get_post_type() ) {
             echo '<div class="category-badge mb-2">';
             $thelist = '';
-			$i = 0;
+			$i = 0; 
             foreach( get_the_category() as $category ) {
 		      if ( 0 < $i ) $thelist .= ' ';
 						    $thelist .= '<a href="' . esc_url( get_category_link( $category->term_id ) ) . '" class="badge bg-secondary">' . $category->name.'</a>';
